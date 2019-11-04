@@ -14,24 +14,24 @@ package com.rakovets.course.challenge.oop;
 
 
 public class Task01_timeInterval {
-    public static void main(String[] args) {
-        Interval timeInterval = new Interval(); // создание объекта
-        timeInterval.displayInfo();
-
-    }
+//    public static void main(String[] args) {
+//        Interval timeInterval = new Interval(); // создание объекта
+//        timeInterval.displayInfo();
+//
+//    }
 }
 
-class Interval {
-    int hours;
-    int minutes;
-    int seconds;
-
-    Interval (int hours, int minutes, int seconds) {
-        this.hours = hours;
-        this.minutes = minutes;
-        this.seconds = seconds;
-    }
-}
+//class Interval {
+//    int hours;
+//    int minutes;
+//    int seconds;
+//
+//    Interval (int hours, int minutes, int seconds) {
+//        this.hours = hours;
+//        this.minutes = minutes;
+//        this.seconds = seconds;
+//    }
+//}
 
 
 

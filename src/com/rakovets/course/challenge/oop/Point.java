@@ -21,31 +21,38 @@ package com.rakovets.course.challenge.oop;
 Написать тесты для класса.
 */
 
-public class Task03_point {
-    public static void main(String[] args) {
-        Point point = new Point(1, 2); // создание объекта
-//        point.displayInfo();
+public class Point {
+
+    private double x;
+    private double y;
+
+    Point (double x, double y) {
+        this.x = x;
+        this.y = y;
     }
-}
 
-class Point {
-    double x;
-    double y;
+    void setX(double x) {
+        this.x = x;
+    }
 
+    double getX() {
+        return x;
+    }
 
-    class Person {
-        private String name;
+    void setY(double y) {
 
-        Person(String name) {
-            this.name = name;
-        }
+        this.y = y;
+    }
 
-        public void setX(double x) {
-            this.x = x;
-        }
+    double getY() {
+        return y;
+    }
 
-        public String getName() {
-            return this.name;
-        }
+    void displayInfo() {
+        System.out.printf("X =: %f, Y =  %f", this.x, this.y);
+    }
 
+//    double distance(Point newPoint) {
+////     double result = Math.sqrt(Math.pow(()));
+//    }
 }
